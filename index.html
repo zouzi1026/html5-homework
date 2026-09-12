@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>万物互联、极致体验</title>
+    <link rel="stylesheet" href="素材/font-awesome.min.css">
+    <style>
+        /* 引入书法字体 */
+        @font-face {
+            font-family: 'Calligraphy';
+            src: url('素材/fonts/书法.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+            color: #333;
+            background-color: #fff;
+            line-height: 1.8;
+        }
+
+        .container {
+            width: 1000px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        /* 标题 */
+        .page-title {
+            font-family: 'Calligraphy', "Microsoft YaHei", serif;
+            font-size: 56px;
+            text-align: center;
+            color: #222;
+            margin-bottom: 60px;
+            letter-spacing: 4px;
+        }
+
+        /* HTML5 介绍区域 */
+        .html5-section {
+            display: flex;
+            justify-content: space-between;
+            gap: 40px;
+            margin-bottom: 80px;
+        }
+
+        .html5-item {
+            flex: 1;
+            text-align: center;
+        }
+
+        .html5-item .logo {
+            width: 90px;
+            height: 90px;
+            margin-bottom: 20px;
+        }
+
+        .html5-item .desc {
+            font-size: 15px;
+            color: #333;
+            text-align: justify;
+            text-indent: 2em;
+            line-height: 2;
+        }
+
+        /* 平台支持区域 */
+        .platform-section {
+            text-align: center;
+        }
+
+        .platform-title {
+            font-size: 32px;
+            font-weight: bold;
+            color: #222;
+            margin-bottom: 50px;
+        }
+
+        .platform-list {
+            display: flex;
+            justify-content: center;
+            gap: 80px;
+        }
+
+        .platform-item {
+            text-align: center;
+        }
+
+        .platform-item .icon {
+            width: 70px;
+            height: 70px;
+            margin-bottom: 20px;
+        }
+
+        .platform-item .label {
+            font-size: 16px;
+            color: #333;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- 页面标题 -->
+        <h1 class="page-title">万物互联、极致体验</h1>
+
+        <!-- HTML5 介绍区域 -->
+        <div class="html5-section">
+            <div class="html5-item">
+                <img src="素材/images/1.png" alt="HTML5" class="logo">
+                <p class="desc">
+                    【HTML5】HTML5不仅仅是HTML规范的当前最新版本，HTML5进化的重大意义还在于HTML5从技术层面带来了八个类别的革新。HTML5规范以"用户至上"为宗旨。也就是说在遇到冲突时，规范的优先级为：用户&gt;页面作者&gt;实现者（浏览器）&gt;规范开发者（W3C/WHATWG）&gt;纯理论。除此之外，HTML5还引入了一种新的安全模型来保证HTML5足够安全。
+                </p>
+            </div>
+            <div class="html5-item">
+                <img src="素材/images/2.png" alt="HTML5" class="logo">
+                <p class="desc">
+                    【HTML5】HTML5不仅仅是HTML规范的当前最新版本，HTML5进化的重大意义还在于HTML5从技术层面带来了八个类别的革新。HTML5规范以"用户至上"为宗旨。也就是说在遇到冲突时，规范的优先级为：用户&gt;页面作者&gt;实现者（浏览器）&gt;规范开发者（W3C/WHATWG）&gt;纯理论。除此之外，HTML5还引入了一种新的安全模型来保证HTML5足够安全。
+                </p>
+            </div>
+        </div>
+
+        <!-- 平台支持区域 -->
+        <div class="platform-section">
+            <h2 class="platform-title">平台支持</h2>
+            <div class="platform-list">
+                <div class="platform-item">
+                    <img src="素材/images/3.png" alt="原生移动APP开发" class="icon">
+                    <div class="label">原生移动APP开发</div>
+                </div>
+                <div class="platform-item">
+                    <img src="素材/images/4.png" alt="微信公共平台开发" class="icon">
+                    <div class="label">微信公共平台开发</div>
+                </div>
+                <div class="platform-item">
+                    <img src="素材/images/5.png" alt="网站开发" class="icon">
+                    <div class="label">网站开发</div>
+                </div>
+                <div class="platform-item">
+                    <img src="素材/images/6.png" alt="桌面应用开发" class="icon">
+                    <div class="label">桌面应用开发</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
